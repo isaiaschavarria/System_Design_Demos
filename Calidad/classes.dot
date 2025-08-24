@@ -1,0 +1,6 @@
+digraph "classes" {
+rankdir=BT
+charset="utf-8"
+"biblioteca.Libro" [color="black", fontcolor="black", label=<{Libro|autor<br ALIGN="LEFT"/>prestado : bool<br ALIGN="LEFT"/>titulo<br ALIGN="LEFT"/>|devolver()<br ALIGN="LEFT"/>prestar()<br ALIGN="LEFT"/>}>, shape="record", style="solid"];
+"biblioteca.Usuario" [color="black", fontcolor="black", label=<{Usuario|nombre<br ALIGN="LEFT"/>prestamos : list<br ALIGN="LEFT"/>|devolver_libro(libro)<br ALIGN="LEFT"/>tomar_prestado(libro)<br ALIGN="LEFT"/>}>, shape="record", style="solid"];
+}
